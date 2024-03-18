@@ -31,7 +31,7 @@ main{
     background: #5f2c82 url(../imagens/pexels-scott-webb-430207\ \(1\).jpg) no-repeat;
     background-size: cover;
     height: 200px;
-    display: block;
+        display: block;
 }
 
 #login{
@@ -45,6 +45,8 @@ main{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    transition: width .5s, height .5s; /* faz uma transição maneira*/
+    transition-timing-function: ease; /* Transição da uma suavizada*/
 }
 
 #login > #formulario{
